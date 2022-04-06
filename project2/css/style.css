@@ -1,0 +1,158 @@
+/*html {
+	background-color: black;
+}
+
+/*Header section
+.header {
+	color: white;
+	text-align: center;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.button:focus {
+	color:blueviolet;
+}
+
+
+#content {
+	display: grid;
+	/*grid-template-columns: 50% 50%;
+	grid-template-columns: 3fr 2fr;
+	max-width: 100%;
+	min-height: 85vh;
+	margin: 0 auto;
+	grid-gap: 40px;
+	color: white;
+	text-align: center;
+}
+/*
+#content div {
+	border: 5px solid chartreuse;
+}
+
+input {
+	background-color: black;
+	border: 2px solid white;
+	color: white;
+}
+
+
+a, a:active, a:visited { 
+	color: white; 
+}
+
+a:hover { 
+	color: blueviolet;
+}
+
+#output {
+display: grid;
+grid-template-rows: repeat(7,1fr);
+grid-auto-rows: 12vh;
+color: black;
+font-family: cursive;
+text-shadow: 1px 1px 6px #FFD700;
+background-image: url("../formal.png");
+}
+*/
+
+
+html {
+	background-color: black;
+}
+
+/*Header section*/
+.header {
+	color: white;
+	text-align: center;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.button:focus {
+	color:blueviolet;
+}
+
+#content {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	max-width: 100%;
+	min-height: 85vh;
+	margin: 0 auto;
+	grid-gap: 40px;
+	color: white;
+	text-align: center;
+}
+
+input {
+	background-color: black;
+	border: 2px solid white;
+	color: white;
+}
+
+
+a:hover { 
+	color: blueviolet;
+}
+
+#output {
+display: grid;
+grid-template-rows: repeat(9,0.5fr);
+color: black;
+font-family: cursive;
+text-shadow: 1px 1px 6px #FFD700;
+background-image: url("../formal.png");
+font-size: 20px;
+}
+
+#names {
+	padding-top: 20px;
+}
+
+#initials {
+	font-size: 45px;
+	padding-top: 20px;
+}
+
+#wording {
+	padding-top: 35px;
+}
+
+#wordDate {
+	padding-top: 35px;
+}
+
+#sName {
+	font-size: 35px;
+}
+
+#weddingDate {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#weddingLocation {
+	font-weight: bold;
+
+}
+
+#wordLoc {
+	padding-top: 30px;
+
+}
+

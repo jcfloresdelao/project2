@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Wedding Invitation Samples</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1 class="title">Wedding Invitation Designer</h1>
+        </div>
+    </header>
+    <div id="content">
+        <div id="input">
+            <br><br>
+            <p>Enter your details and then select your desired invitation style.</p>
+            <br>
+            <label for="nameOne">Enter First Name: </label>
+            <br>
+            <input type="text" id="nameOne" oninput="namesTogether()">
+            <br><br>
+            <label for="nameTwo">Enter Second Name: </label>
+            <br>
+            <input type="text" id="nameTwo" oninput="namesTogether()">
+            <br><br>
+            <label for="surname">Enter Surname: </label>
+            <br>
+            <input type="text" id="surname" oninput="surnameFunction()">
+            <br><br>
+            <label for="date">Date (dd/mm/yyyy):</label>
+            <br>
+            <input type="text" id="date" oninput="weddingDateFunction()">
+            <br><br>
+            <label for="local">Wedding Location: </label>
+            <br>
+            <input type="text" id="local" oninput="locationLocation()">
+            <br><br>
+            <p>Select from the styles below:</p>
+            <button class="button" id="formal" onclick="formalFunction()">Formal</button>
+            <button class="button" id="spring" onclick="springFunction()">Spring</button>
+            <button class="button" id="artDecor" onclick="artFunction()">Art Decor</button>
+        </div>
+        <div id="output">
+            <br>
+            <div id="initials"></div>
+            <div id="wording">You are cordially invited to the wedding of</div>
+            <div id="names"></div>
+            <div id="sName"></div>
+            <div id="wordDate">Date:</div>
+            <div id="weddingDate"></div>
+            <div id="wordLoc">Location:</div>
+            <div id="weddingLocation"></div>
+            <div></div>
+        </div>
+    </div>
+
+
+
+
+<script src="js/java.js"></script>
+
+
+</body>
